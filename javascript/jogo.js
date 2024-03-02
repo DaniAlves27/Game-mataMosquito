@@ -42,7 +42,7 @@ function posicaoAleatoria() {
     if (vidas > 3) {
       window.location.href = "gameover.html";
     } else {
-      document.getElementById("v" + vidas).src = "./imagens/coracao_vazio.png";
+      document.getElementById("v" + vidas).src = "/imagens/coracao_vazio.png";
       vidas++;
     }
   }
