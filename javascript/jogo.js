@@ -54,7 +54,7 @@ function posicaoAleatoria() {
   posicaoY = posicaoY < 0 ? 0 : posicaoY;
 
   var mosquito = document.createElement("img");
-  mosquito.src = "/imagens/mosca.png";
+  mosquito.src = "./imagens/mosca.png";
   mosquito.className = tamanhoAleatorio() + " " + ladoAleatorio();
   mosquito.style.left = posicaoX + "px";
   mosquito.style.top = posicaoY + "px";
